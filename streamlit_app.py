@@ -142,7 +142,7 @@ def main():
         1. **Upload Kannada Audio**: Your voice speaking in Kannada
         2. **AI Analysis**: The system learns your voice characteristics 
         3. **English Synthesis**: Applies your voice to English text
-        4. **Result**: "Happy Birthday Natesh" in your voice, but in English!
+        4. **Result**: "Happy Birthday " in your voice, but in English!
         
         ### Tips for best results:
         - **Clear Kannada speech**: Use a recording with good pronunciation
@@ -170,7 +170,7 @@ def main():
         - Any clear audio of your voice (language doesn't matter!)
         
         **What you'll get:**
-        - The same voice saying "Happy Birthday Natesh" in English
+        - The same voice saying "Happy Birthday " in English
         - Perfect for birthday wishes in your voice!
         """)
 
