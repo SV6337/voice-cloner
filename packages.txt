@@ -1,5 +1,2 @@
-@'
 ffmpeg
 libsndfile1
-
-'@ | Out-File -FilePath "packages.txt" -Encoding utf8
