@@ -1,0 +1,6 @@
+# Python virtual environment
+voice_env/
+*.exe
+*.dll
+*.lib
+*.db
