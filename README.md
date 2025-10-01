@@ -10,11 +10,11 @@ A Streamlit app that clones any voice and generates speech in English.
 
 ## Usage
 1. Upload a clear voice recording (WAV/MP3)
-2. Enter English text (e.g., "Happy Birthday Natesh!")
+2. Enter English text (e.g., "Happy Birthday xyz!")
 3. Generate and download cloned speech
 
 ## Live Demo
-🚀 **[Try the app live here](https://voice-cloner.streamlit.app)**
+🚀 **[Try the app live here]([https://voice-cloner.streamlit.app](https://sv6337-voice-cloner-streamlit-app-wvk4i2.streamlit.app/))**
 
 ## Deployment
 Deployed on Streamlit Cloud from this GitHub repository.
