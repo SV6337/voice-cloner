@@ -33,7 +33,7 @@ def main():
     # Pre-fill the birthday message
     text = st.text_area(
         "English text to synthesize",
-        value="Happy Birthday Natesh!",
+        value="enter message here",
         height=100,
         help="The voice will say this in English using your Kannada voice characteristics"
     )
