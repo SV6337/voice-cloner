@@ -56,7 +56,7 @@ def main():
         )
     
     # Generate button
-    if st.button("🎉 Generate Birthday Message", disabled=not (audio_file and text.strip()), type="primary"):
+    if st.button("🎉 Generate  Message", disabled=not (audio_file and text.strip()), type="primary"):
         device = "cuda" if torch.cuda.is_available() else "cpu"
         st.info(f"💻 Using device: {device}")
         
@@ -86,14 +86,14 @@ def main():
                 audio_bytes = f.read()
             
             # Success!
-            st.success("🎉 Birthday message generated successfully!")
+            st.success("🎉  message generated successfully!")
             st.balloons()  # Fun animation for birthday!
             
             # Display results
             col1, col2 = st.columns([1, 1])
             
             with col1:
-                st.subheader("🎵 Your Birthday Message")
+                st.subheader("🎵 Your Message")
                 st.audio(audio_bytes, format="audio/wav")
                 
                 # Audio info
@@ -103,9 +103,9 @@ def main():
             with col2:
                 st.subheader("💾 Download & Share")
                 st.download_button(
-                    "🎁 Download Birthday Audio",
+                    "🎁 Download  Audio",
                     data=audio_bytes,
-                    file_name=f"Happy_Birthday_Natesh_{unique_id}.wav",
+                    file_name=f"audio{unique_id}.wav",
                     mime="audio/wav",
                     use_container_width=True
                 )
