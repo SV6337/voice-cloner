@@ -1,1 +1,1 @@
-print(hello owrldklk");;;;
+print(hello owrldklk")
