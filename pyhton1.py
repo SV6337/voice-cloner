@@ -1,1 +1,1 @@
-printf("hello owrldklk");;;;
+printf("hello owrldklk")
