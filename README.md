@@ -1,4 +1,6 @@
-﻿# 🎤 Voice Cloning App
+[![SpectreDoc](http://localhost:5000/api/badges/repo/sv6337%2Fvoice-cloner)](https://github.com/SV6337/voice-cloner)
+ 
+ # 🎤 Voice Cloning App
 
 A Streamlit app that clones any voice and generates speech in English.
 
@@ -26,6 +28,8 @@ Deployed on Streamlit Cloud from this GitHub repository.
 - **ML Framework**: PyTorch
 
 ## Local Development
+
+
 
 
 
